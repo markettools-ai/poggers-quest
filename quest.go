@@ -51,8 +51,8 @@ func PromptCallback(name string, messages []poggers.Message) error {
 		return handleLoot(result)
 	case "npc":
 		return handleNPC(result)
-	case "quest":
-		return handleQuest(result)
+	case "steps":
+		return handleSteps(result)
 	}
 	return fmt.Errorf("unknown prompt name: %s", name)
 }
@@ -79,11 +79,11 @@ func handleNPC(result string) error {
 	return nil
 }
 
-// handleQuest processes the quest prompt result
-func handleQuest(result string) error {
+// handleSteps processes the steps prompt result
+func handleSteps(result string) error {
 	var steps []map[string]interface{}
 	if err := json.Unmarshal([]byte(result), &steps); err != nil {
-		return fmt.Errorf("failed to unmarshal quest: %w", err)
+		return fmt.Errorf("failed to unmarshal steps: %w", err)
 	}
 	quest.Steps = steps
 	return nil
