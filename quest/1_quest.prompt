@@ -1,0 +1,18 @@
+system:
+    Create the steps the player should take to complete a quest.
+    @OutputSchema
+    [ // 3-5 steps
+        {
+            "step": "talk to npc" | "kill enemy" | "kill greater enemy" | "go to location",
+            "description": "string", // 200 characters max
+            "line": "string" // 200 characters max, "talk to npc" only
+        }
+    ]
+    @JSONOutput
+    This is the NPC that will assign the quest,
+    the final reward,
+    and @QuestInfo:
+user:
+    @loot
+    @npc
+    @input

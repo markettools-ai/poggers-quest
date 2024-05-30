@@ -1,0 +1,13 @@
+system:
+    Create an NPC that will give the player a quest.
+    @OutputSchema
+    {
+        "name": string,
+        "gender": "male" | "female",
+        "race": "human" | "orc" | "elf",
+        "profession": string
+    }
+    @JSONOutput
+    This is @QuestInfo:
+user:
+    @input
