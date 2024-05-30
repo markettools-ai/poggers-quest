@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/markettools-ai/poggers/assets/20731019/1ddee16c-5e54-498e-bec5-6e922f89966d" width="100">
+  <img src="https://github.com/markettools-ai/poggers-quest/assets/20731019/e9099fe5-62a9-4a71-a08e-a2b6f5a97cd2" width="100">
   <h1 align="center">Welcome to poggers-quest!</h1>
 </p>
 
