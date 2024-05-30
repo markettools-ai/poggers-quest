@@ -2,5 +2,7 @@ github.com/markettools-ai/poggers v0.0.0-20240529201232-3fbda63a131b h1:zTWCfCjl
 github.com/markettools-ai/poggers v0.0.0-20240529201232-3fbda63a131b/go.mod h1:cR98nrbctGvKD9ewCVSo32xuwLo6pGtzrPa0fIbIgPM=
 github.com/markettools-ai/poggers v0.0.0-20240530034903-1decb0ddd328 h1:TQOvL2d2hGe9/8KPeyWOQ5Z674jHhfsKbdYk1nPAvF8=
 github.com/markettools-ai/poggers v0.0.0-20240530034903-1decb0ddd328/go.mod h1:cR98nrbctGvKD9ewCVSo32xuwLo6pGtzrPa0fIbIgPM=
+github.com/markettools-ai/poggers v0.0.0-20240530035846-330001796a9c h1:pcQ1af+RT8BayO+5h+m85RKNRovxGxeFOogKUWCROWE=
+github.com/markettools-ai/poggers v0.0.0-20240530035846-330001796a9c/go.mod h1:cR98nrbctGvKD9ewCVSo32xuwLo6pGtzrPa0fIbIgPM=
 github.com/sashabaranov/go-openai v1.24.1 h1:DWK95XViNb+agQtuzsn+FyHhn3HQJ7Va8z04DQDJ1MI=
 github.com/sashabaranov/go-openai v1.24.1/go.mod h1:lj5b/K+zjTSFxVLijLSTDZuP7adOgerWeFyZLUhAKRg=
