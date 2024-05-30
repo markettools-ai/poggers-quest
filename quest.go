@@ -27,10 +27,11 @@ func GenerateQuest(name string) (Quest, error) {
 				"QuestInfo": "the quest information",
 				"input":     "The quest name is \"" + name + "\".", // Could also be a JSON string
 			},
+			OnAfterProcess: PromptCallback,
 		},
 	)
 	// Process prompts
-	err := promptBuilder.ProcessBatchFromDir("./quest", PromptCallback)
+	err := promptBuilder.ProcessBatchFromDir("./quest")
 	quest.Name = name
 	return quest, err
 }
