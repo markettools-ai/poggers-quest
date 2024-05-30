@@ -3,7 +3,7 @@
   <h1 align="center">Welcome to poggers-quest!</h1>
 </p>
 
-This repository showcases the usage of the [poggers](https://github.com/markettools-ai/poggers), a library and its IDL for creating and managing AI prompts.
+This repository showcases the usage of [poggers](https://github.com/markettools-ai/poggers), a library and its IDL for creating and managing AI prompts.
 
 > Make sure to download poggers' [VSCode Extension](https://marketplace.visualstudio.com/items?itemName=markettools-ai.poggers-prompt)!
 
