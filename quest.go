@@ -27,13 +27,20 @@ func GenerateQuest(name string) (Quest, error) {
 				"QuestInfo": "the quest information",
 				"input":     "The quest name is \"" + name + "\".", // Could also be a JSON string
 			},
-			OnAfterProcess: PromptCallback,
+			OnAfterProcess:  PromptCallback,
+			OnBeforeProcess: OnBeforeProcess,
 		},
 	)
+	fmt.Println("Generating quest:", promptBuilder)
 	// Process prompts
 	err := promptBuilder.ProcessBatchFromDir("./quest")
 	quest.Name = name
 	return quest, err
+}
+
+func OnBeforeProcess(name string, constants map[string]string) (skip bool, err error) {
+	fmt.Println("CONSTANTS", constants)
+	return false, nil
 }
 
 // Callback function that processes the result of a prompt

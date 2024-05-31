@@ -1,12 +1,12 @@
 system:
-    Create a reward/loot for a quest.
+    Create a reward for a quest.
     @OutputSchema
-    [ // 3-5 random items
+    [ # 3-5 random items
         {
-            "name": string, // Only if not "gold"
+            "name": string, # Only if not "gold"
             "type": "sword" | "armor" | "potion" | "gold" | "misc",
-            "description": string, // 100 characters max
-            "amount": number // Should only be present for "gold" (5-15) and "potion" (1-3)
+            "description": string, # 100 characters max
+            "amount": number # Should only be present for "gold" (5-15) and "potion" (1-3)
         }
     ]
     @JSONOutput

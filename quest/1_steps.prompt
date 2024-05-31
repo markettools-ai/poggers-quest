@@ -1,11 +1,11 @@
 system:
     Create the steps the player should take to complete a quest.
     @OutputSchema
-    [ // 3-5 steps
+    [ # 3-5 steps
         {
             "step": "talk to npc" | "kill enemy" | "kill greater enemy" | "go to location",
-            "description": "string", // 200 characters max
-            "line": "string" // 200 characters max, "talk to npc" only
+            "description": "string", # 200 characters max
+            "line": "string" # 200 characters max, "talk to npc" only
         }
     ]
     @JSONOutput

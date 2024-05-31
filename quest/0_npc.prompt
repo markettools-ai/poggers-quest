@@ -1,11 +1,12 @@
+MODEL=gpt4 // You can add constants like this
 system:
     Create an NPC that will give the player a quest.
     @OutputSchema
     {
-        "name": string,
+        "name": string, // The AI will generate a name
         "gender": "male" | "female",
         "race": "human" | "orc" | "elf",
-        "profession": string
+        "profession": string # Medieval profession
     }
     @JSONOutput
     This is @QuestInfo:
