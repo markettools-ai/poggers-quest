@@ -11,12 +11,12 @@ import (
 var openAIAPIKey *string
 
 // Simple function to send a request to the OpenAI API
-func SendMessages(messages []poggers.Message) (string, error) {
+func SendMessages(messages []poggers.Message, model string) (string, error) {
 	client := openai.NewClient(*openAIAPIKey)
 	response, err := client.CreateChatCompletion(
 		context.Background(),
 		openai.ChatCompletionRequest{
-			Model:    openai.GPT4o,
+			Model:    model,
 			Messages: castToOpenAIMessage(messages),
 		},
 	)

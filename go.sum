@@ -26,5 +26,7 @@ github.com/markettools-ai/poggers v0.0.0-20240531045320-95bcab187633 h1:00U5ilYY
 github.com/markettools-ai/poggers v0.0.0-20240531045320-95bcab187633/go.mod h1:cR98nrbctGvKD9ewCVSo32xuwLo6pGtzrPa0fIbIgPM=
 github.com/markettools-ai/poggers v0.0.0-20240531052259-ef0f7dff2fd1 h1:KZDx65i4WHMWGrQ+nGYUu9/mCcUc6jnMPaRBy373ryo=
 github.com/markettools-ai/poggers v0.0.0-20240531052259-ef0f7dff2fd1/go.mod h1:cR98nrbctGvKD9ewCVSo32xuwLo6pGtzrPa0fIbIgPM=
+github.com/markettools-ai/poggers v0.0.0-20240601230223-a5e440916bb1 h1:HCRckuuw6UBuQZdXhYbA2YqsMUZ8FUK3rkmGT0eclGY=
+github.com/markettools-ai/poggers v0.0.0-20240601230223-a5e440916bb1/go.mod h1:cR98nrbctGvKD9ewCVSo32xuwLo6pGtzrPa0fIbIgPM=
 github.com/sashabaranov/go-openai v1.24.1 h1:DWK95XViNb+agQtuzsn+FyHhn3HQJ7Va8z04DQDJ1MI=
 github.com/sashabaranov/go-openai v1.24.1/go.mod h1:lj5b/K+zjTSFxVLijLSTDZuP7adOgerWeFyZLUhAKRg=

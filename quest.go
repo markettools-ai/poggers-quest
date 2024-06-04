@@ -27,7 +27,9 @@ func GenerateQuest(name string) (Quest, error) {
 				"QuestInfo": "the quest information",
 				"input":     "The quest name is \"" + name + "\".", // Could also be a JSON string
 			},
-			OnAfterProcess: PromptCallback,
+			// Callbacks for processing the prompts
+			OnBeforeProcess: nil,
+			OnAfterProcess:  PromptCallback,
 		},
 	)
 	// Process prompts
@@ -37,11 +39,16 @@ func GenerateQuest(name string) (Quest, error) {
 }
 
 // Callback function that processes the result of a prompt
-func PromptCallback(name string, messages []poggers.Message) error {
+func PromptCallback(name string, constants map[string]string, messages []poggers.Message) error {
 	// Remove the prefix from the prompt name
 	name = strings.Split(name, "_")[1]
+	// Define model
+	model := "gpt-4o"
+	if m, ok := constants["model"]; ok {
+		model = m
+	}
 	// Send the messages to the OpenAI API
-	result, err := SendMessages(messages)
+	result, err := SendMessages(messages, model)
 	if err != nil {
 		return err
 	}
