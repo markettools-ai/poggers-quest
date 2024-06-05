@@ -3,7 +3,6 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"strings"
 
 	"github.com/markettools-ai/poggers"
 )
@@ -40,11 +39,9 @@ func GenerateQuest(name string) (Quest, error) {
 
 // Callback function that processes the result of a prompt
 func PromptCallback(name string, constants map[string]string, messages []poggers.Message) error {
-	// Remove the prefix from the prompt name
-	name = strings.Split(name, "_")[1]
 	// Define model
 	model := "gpt-4o"
-	if m, ok := constants["model"]; ok {
+	if m, ok := constants["MODEL"]; ok {
 		model = m
 	}
 	// Send the messages to the OpenAI API

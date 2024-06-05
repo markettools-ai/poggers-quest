@@ -1,4 +1,4 @@
-MODEL=gpt4 // You can add constants like this
+MODEL=gpt-4 // You can add constants like this
 system:
     Create an NPC that will give the player a quest.
     @OutputSchema
