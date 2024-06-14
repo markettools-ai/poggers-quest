@@ -5,7 +5,7 @@ system:
         {
             "step": "talk to npc" | "kill enemy" | "kill greater enemy" | "go to location",
             "description": "string", # 200 characters max
-            "line": "string" # 200 characters max, "talk to npc" only
+            "line": "string" # 200 characters max, "talk to npc" only // You can orient the AI like this
         }
     ]
     @JSONOutput

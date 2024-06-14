@@ -1,3 +1,4 @@
+// Double-slash comments are ignored
 system:
     Create a reward for a quest.
     @OutputSchema

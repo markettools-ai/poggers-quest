@@ -12,6 +12,7 @@ var openAIAPIKey *string
 
 // Simple function to send a request to the OpenAI API
 func SendMessages(messages []poggers.Message, model string) (string, error) {
+	fmt.Println("Sending messages to OpenAI API...", messages)
 	client := openai.NewClient(*openAIAPIKey)
 	response, err := client.CreateChatCompletion(
 		context.Background(),
