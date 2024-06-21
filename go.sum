@@ -34,7 +34,11 @@ github.com/markettools-ai/poggers v0.0.0-20240614150059-e73d10c41921 h1:t++pbhwE
 github.com/markettools-ai/poggers v0.0.0-20240614150059-e73d10c41921/go.mod h1:cR98nrbctGvKD9ewCVSo32xuwLo6pGtzrPa0fIbIgPM=
 github.com/markettools-ai/poggers v0.0.0-20240614152907-c40a58f47733 h1:ChY4O4QP18E61Q2zuh31bRnh79rQhDMJcUUC7F77U2U=
 github.com/markettools-ai/poggers v0.0.0-20240614152907-c40a58f47733/go.mod h1:cR98nrbctGvKD9ewCVSo32xuwLo6pGtzrPa0fIbIgPM=
+github.com/markettools-ai/poggers v0.0.0-20240621215710-6cac316e93ed h1:dTAef3tqygpxYl75VyoJmDFw4Un8+tJgwvNr6vP7cXM=
+github.com/markettools-ai/poggers v0.0.0-20240621215710-6cac316e93ed/go.mod h1:cR98nrbctGvKD9ewCVSo32xuwLo6pGtzrPa0fIbIgPM=
 github.com/sashabaranov/go-openai v1.24.1 h1:DWK95XViNb+agQtuzsn+FyHhn3HQJ7Va8z04DQDJ1MI=
 github.com/sashabaranov/go-openai v1.24.1/go.mod h1:lj5b/K+zjTSFxVLijLSTDZuP7adOgerWeFyZLUhAKRg=
 github.com/sashabaranov/go-openai v1.25.0 h1:3h3DtJ55zQJqc+BR4y/iTcPhLk4pewJpyO+MXW2RdW0=
 github.com/sashabaranov/go-openai v1.25.0/go.mod h1:lj5b/K+zjTSFxVLijLSTDZuP7adOgerWeFyZLUhAKRg=
+github.com/sashabaranov/go-openai v1.26.0 h1:upM565hxdqvCxNzuAcEBZ1XsfGehH0/9kgk9rFVpDxQ=
+github.com/sashabaranov/go-openai v1.26.0/go.mod h1:lj5b/K+zjTSFxVLijLSTDZuP7adOgerWeFyZLUhAKRg=

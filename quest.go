@@ -32,7 +32,7 @@ func GenerateQuest(name string) (Quest, error) {
 		},
 	)
 	// Process prompts
-	err := promptBuilder.ProcessBatchFromDir("./quest")
+	err := promptBuilder.Process("./quest")
 	quest.Name = name
 	return quest, err
 }
