@@ -38,10 +38,10 @@ func GenerateQuest(name string) (Quest, error) {
 }
 
 // Callback function that processes the result of a prompt
-func PromptCallback(name string, index int, constants map[string]string, messages []poggers.Message) error {
+func PromptCallback(name string, index int, params map[string]string, messages []poggers.Message) error {
 	// Define model
 	model := "gpt-4o"
-	if m, ok := constants["MODEL"]; ok {
+	if m, ok := params["MODEL"]; ok {
 		model = m
 	}
 	// Send the messages to the OpenAI API
